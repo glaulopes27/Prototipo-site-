@@ -1,0 +1,136 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.bgcolor {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.displayflex {
+  
+    display:grid;
+    flex-direction: row;
+    grid-template-rows: "h m f";
+  
+}
+
+.header {
+    border:1px solid rgb(255, 255, 255);
+    background: rgb(213, 240, 241);
+    width:100%;
+    height: 60px;
+    grid-area: h h;
+        
+  
+}
+
+.main {
+    border:1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    height: 1000px;
+    grid-area: m m ;
+      
+ 
+}
+
+.footer {
+    width:100%;
+    height: 30px;
+    background-color:#005b8f;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.titulo{
+    font-size: 20px;
+    font-style:normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:solid 3px;
+    border-radius: 100%;
+    width:150px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+.carousel-item {
+    height: 400px;
+    width: 600px;
+}
+
+.textocarrosel {
+    color: rgb(0, 0, 0);
+    font-size:larger;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulocarrosel {
+    color:rgb(255, 255, 255);
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: oblique;
+    font-weight: bold;
+
+}
+
+
+.figure1 {
+    border:1px solid rgb(250, 250, 250);
+    margin-left: 30px;
+    margin-right: 20px;
+  
+    
+}
+
+.destino {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+
+.faleconosco {
+    margin-left: 30px;
+    
+}
+
+.cadastro {
+    margin-left:30px;
+}
+
+
